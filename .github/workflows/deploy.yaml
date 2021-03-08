@@ -3,7 +3,7 @@ name: Deploy Personal Site
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
 
 jobs:
@@ -23,7 +23,7 @@ jobs:
 
       - name: "Build Hugo"
         id: build
-        working-directory: ./curtisgriffiths.co.uk
+        working-directory: ./curtis.wales
         run: hugo --minify
 
       - name: Authenticate on GCS
