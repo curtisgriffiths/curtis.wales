@@ -1,0 +1,11 @@
+# Hugo default output directory
+/public
+/resources/_gen/
+/node_modules
+/dist
+/tmp
+
+## OS Files
+
+# OSX
+.DS_Store

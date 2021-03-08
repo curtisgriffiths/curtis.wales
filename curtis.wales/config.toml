@@ -1,0 +1,49 @@
+baseurl = "https://www.curtis.wales"
+title = "curtis griffiths"
+theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+googleAnalytics = "UA-136130852-1"
+
+[markup.goldmark.renderer]
+    unsafe = true # Allow user HTML tags
+
+[params]
+    author = "Curtis Griffiths"
+    avatar = "avatar.png"
+    # avatarDescription = "My avatar description"
+    favicon = "favicon.ico"
+    description = """
+        Hi I'm Curtis! A DevOps Engineer who loves all things automation, check out the links below to learn more.
+    """
+    publicationYear = "2021"
+    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    # singlePageDateFormat = "January 2, 2006"
+    # custom_css = ["/css/custom.css"]
+    # custom_js = ["/js/custom.js"]
+
+# Make sure setting a following option for search bar to work
+[outputs]
+    section = ["JSON", "HTML"]
+    term = ["JSON", "HTML"]
+
+[[menu.main]]
+    identifier = "linkedin"
+    # name = "LinkedIn"
+    pre = "<i class='fab fa-linkedin fa-lg'></i>"
+    url = "https://www.linkedin.com/in/curtis-griffiths-6b5493149/"
+    weight = 20
+
+[[menu.main]]
+    identifier = "github"
+    # name = "GitHub"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/curtisgriffiths"
+    weight = 30
+
+[[menu.main]]
+    identifier = "twitter"
+    # name = "Twitter"
+    pre = "<i class='fab fa-twitter fa-lg'></i>"
+    url = "https://twitter.com/curtisgriffiths"
+    weight = 20
