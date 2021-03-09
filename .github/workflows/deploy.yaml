@@ -32,5 +32,7 @@ jobs:
           project_id: ${{ secrets.GCP_PROJECT_ID }}
           service_account_key: ${{ secrets.GCP_SA_KEY }}
           export_default_credentials: true
-      - name: Upload
+      - name: Upload to curtis.wales
         run: gsutil -h "Cache-Control:public, max-age=31536000" cp -r ./curtis.wales/public/* gs://www.curtis.wales
+      - name: Upload to curtis.cymru
+        run: gsutil -h "Cache-Control:public, max-age=31536000" cp -r ./curtis.wales/public/* gs://www.curtis.cymru
