@@ -1,3 +1,6 @@
 [submodule "curtis.wales/themes/pulp"]
 	path = curtis.wales/themes/pulp
 	url = https://github.com/koirand/pulp.git
+[submodule "curtis.cymru/themes/pulp"]
+	path = curtis.cymru/themes/pulp
+	url = https://github.com/koirand/pulp.git
