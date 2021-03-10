@@ -14,7 +14,7 @@ googleAnalytics = "UA-136130852-1"
     # avatarDescription = "My avatar description"
     favicon = "favicon.ico"
     description = """
-        Hi I'm Curtis! A DevOps Engineer who loves all things automation, check out the links below to learn more.
+       Helo Curtis ydw i! Peiriannydd DevOps sy'n caru awtomeiddio popeth, edrychwch ar y dolenni isod i ddysgu mwy.
     """
     publicationYear = "2021"
     # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
