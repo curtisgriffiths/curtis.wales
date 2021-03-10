@@ -35,4 +35,4 @@ jobs:
       - name: Upload to curtis.wales
         run: gsutil -h "Cache-Control:public, max-age=31536000" cp -r ./curtis.wales/public/* gs://www.curtis.wales
       - name: Upload to curtis.cymru
-        run: gsutil -h "Cache-Control:public, max-age=31536000" cp -r ./curtis.wales/public/* gs://www.curtis.cymru
+        run: gsutil -h "Cache-Control:public, max-age=31536000" cp -r ./curtis.cymru/public/* gs://www.curtis.cymru
