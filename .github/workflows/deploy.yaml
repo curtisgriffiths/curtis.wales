@@ -27,7 +27,7 @@ jobs:
         run: hugo --minify
 
       - name: "Build Hugo curtis.cymru"
-        id: build
+        id: build-2
         working-directory: ./curtis.cymru
         run: hugo --minify
 
