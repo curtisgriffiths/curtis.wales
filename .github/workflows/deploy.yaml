@@ -21,9 +21,14 @@ jobs:
         with:
           hugo-version: "0.81.0"
 
-      - name: "Build Hugo"
+      - name: "Build Hugo curtis.wales"
         id: build
         working-directory: ./curtis.wales
+        run: hugo --minify
+
+      - name: "Build Hugo curtis.cymru"
+        id: build
+        working-directory: ./curtis.cymru
         run: hugo --minify
 
       - name: Authenticate on GCS
